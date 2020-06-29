@@ -1,0 +1,11 @@
+C:\Users\jannabel\source\repos\Piedra, Papel, Tijera\bin\Debug\netcoreapp3.1\Piedra, Papel, Tijera.exe
+C:\Users\jannabel\source\repos\Piedra, Papel, Tijera\bin\Debug\netcoreapp3.1\Piedra, Papel, Tijera.deps.json
+C:\Users\jannabel\source\repos\Piedra, Papel, Tijera\bin\Debug\netcoreapp3.1\Piedra, Papel, Tijera.runtimeconfig.json
+C:\Users\jannabel\source\repos\Piedra, Papel, Tijera\bin\Debug\netcoreapp3.1\Piedra, Papel, Tijera.runtimeconfig.dev.json
+C:\Users\jannabel\source\repos\Piedra, Papel, Tijera\bin\Debug\netcoreapp3.1\Piedra, Papel, Tijera.dll
+C:\Users\jannabel\source\repos\Piedra, Papel, Tijera\bin\Debug\netcoreapp3.1\Piedra, Papel, Tijera.pdb
+C:\Users\jannabel\source\repos\Piedra, Papel, Tijera\obj\Debug\netcoreapp3.1\Piedra, Papel, Tijera.csprojAssemblyReference.cache
+C:\Users\jannabel\source\repos\Piedra, Papel, Tijera\obj\Debug\netcoreapp3.1\Piedra, Papel, Tijera.AssemblyInfoInputs.cache
+C:\Users\jannabel\source\repos\Piedra, Papel, Tijera\obj\Debug\netcoreapp3.1\Piedra, Papel, Tijera.AssemblyInfo.cs
+C:\Users\jannabel\source\repos\Piedra, Papel, Tijera\obj\Debug\netcoreapp3.1\Piedra, Papel, Tijera.dll
+C:\Users\jannabel\source\repos\Piedra, Papel, Tijera\obj\Debug\netcoreapp3.1\Piedra, Papel, Tijera.pdb
