@@ -1,42 +1,39 @@
 ﻿using System;
 
-namespace Piedra__Papel__Tijera
+namespace Piedra__papel__tijeras
 {
     class Program
     {
-
-        public static int comprobar(int n)
-        {
-
-            switch (n)
+      
+            public static int comprobar(int n)
             {
-                case 1:
-                    Console.Write(" Piedra. ");
-                    break;
-                case 2:
-                    Console.Write(" Papel. ");
-                    break;
-                case 3:
-                    Console.Write(" Tijera. ");
-                    break;
+
+                switch (n)
+                {
+                    case 1:
+                        Console.Write(" Piedra. ");
+                        break;
+                    case 2:
+                        Console.Write(" Papel. ");
+                        break;
+                    case 3:
+                        Console.Write(" Tijera. ");
+                        break;
+                }
+
+
+                return n;
             }
-
-
-            return n;
-        }
-
-
-
         static void Main(string[] args)
         {
             //Realizar un piedra, papel o tijera.
             int volver;
-            int puntosA = 0, puntosB = 0;
+            int totalA = 0, totalB = 0;
             do
             {
                 Console.Clear();
                 var aleatorio = new Random().Next(1, 3);
-                
+                int puntosA = 0, puntosB = 0;
 
                 Console.WriteLine("\n .......................................");
                 Console.WriteLine(" °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°° ");
@@ -96,7 +93,13 @@ namespace Piedra__Papel__Tijera
                 {
                     puntosB++;
                 }
-                Console.WriteLine("\n\n || Puntos usuario: {0}    ||   Puntos Maquina: {1} ||", puntosB, puntosA);
+
+                totalB += puntosB;
+                totalA += puntosA;
+
+                Console.WriteLine("\n\n || Puntos usuario: {0}    ||   Puntos Maquina: {1} ||", totalB, totalA);
+
+
 
                 if (puntosA > puntosB) Console.WriteLine("\n ~ La maquina gana ~");
                 else if (puntosB > puntosA) Console.WriteLine("\n ~ El usuario gana ~ ");
@@ -110,12 +113,14 @@ namespace Piedra__Papel__Tijera
                 Console.Write(" ~ ");
                 volver = Convert.ToInt32(Console.ReadLine());
 
+            
+
                 if (volver == 1) Environment.Exit(0);
 
-           
-            } while (volver== 2);
 
-
+            } while (volver == 2);
         }
     }
 }
+
+

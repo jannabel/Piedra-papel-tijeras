@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Piedra__Papel__Tijera</RootNamespace>
+    <RootNamespace>Piedra__papel__tijeras</RootNamespace>
   </PropertyGroup>
 
 </Project>
